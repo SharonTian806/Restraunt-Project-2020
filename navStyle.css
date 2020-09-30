@@ -1,25 +1,48 @@
 
   #topNav{
-    padding: 5px;
+    padding: 10px;
+    height: 50px;
+    margin:0px;
+    background-color: #ff8000;
 }
 
   #topNav li{
-    padding-right: 8px;
+    padding-right: 10px;
     display: inline;
     float: right;
     text-decoration: none;
 }
 
   #topNav li:hover{
-    background-color: ;
+    background-color: #cc6600;
 }
   #topNav li a{
     text-decoration: none;
     font-family: monospace;
     font-size: 20px;
-    color: #;
+    color: black;
+  }
+
+  #menuNav{
+    height: 100%;
+    width: 140px;
+    margin: 0px;
+    background-color: #ffb366;
+    border-right: 2px solid black;
+    float:left;
+    text-decoration: none;
+    z-index: -999; /*negative z-index pusehes a tag/element to the background*/
+  }
+
+  #menuNav li{
+  padding-top: 10px;
+  list-style: none;
+  text-decoration: none;
+  font-family: monospace;
+}
+
   }
 
   a:hover{
-    color: grey;
+    color: #cc6600;
 }
